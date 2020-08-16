@@ -1,6 +1,6 @@
 datasource hammerDatasource {
   provider = "sqlite"
-  url = env("DB_HOST")
+  url = env("DATABASE_URL")
 }
 
 generator client {
